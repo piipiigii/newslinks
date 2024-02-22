@@ -81,9 +81,11 @@ export default function Home() {
       </main>
 
       <footer className="my-2">
+        
         <p className="text-center">
-          Made with ❤️ by{" "}
-          <Link href="#">News Paper Links</Link>
+        
+          Made with love by{" "}
+          <Link href="#">🦜NewsBird</Link>
         </p>
       </footer> 
     </>
