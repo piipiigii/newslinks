@@ -26,7 +26,7 @@ export default function Home() {
         <meta property="og:title" content="Assamese News Papers" />
         <meta
           property="og:description"
-          content="Assamese News Papers"
+          content="Assamese News Paper Links"
         />
         <meta property="og:image" content="https://asnews.vercel.app/website.png" />
 
