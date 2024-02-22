@@ -5,7 +5,7 @@
     "short_name": "AsNews",
     "start_url": "/",
     "display": "standalone",
-    "description": "Assamese News Papers",    
+    "description": "Assamese News Paper Links",    
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
     "orientation": "any",           
