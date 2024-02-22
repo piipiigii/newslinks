@@ -11,14 +11,14 @@ export default function Home() {
       <Head>
         <title>Assamese News Papers</title>
         <meta name="title" content="Assamese News Papers" />
-        <meta name="author" content="Assamese News Papers" />
+        <meta name="author" content="NewsBird" />
         <meta
           name="description"
-          content="Assamese News Papers"
+          content="Assamese News Paper Links"
         />
         <meta
           name="keywords"
-          content="News Paper Links, News, Assamese News Papers"
+          content="News Paper Links, News, Assamese News Papers, ePapers"
         />
         <link rel="canonical" href="https://asnews.vercel.app" />
         <meta property="og:type" content="website" />
@@ -32,12 +32,12 @@ export default function Home() {
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://asnews.vercel.app" />
-        <meta property="twitter:title" content="AAssamese News Papers" />
+        <meta property="twitter:title" content="Assamese News Papers" />
         <meta
           property="twitter:description"
-          content="Assamese News Papers"
+          content="Assamese News Paper Links"
         />
-        <meta property="twitter:image" content="./website.png" />
+        <meta property="twitter:image" content="https://asnews.vercel.app/website.png" />
       </Head>
 
       <nav className="navbar navbar-expand-lg my-3">
