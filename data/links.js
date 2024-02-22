@@ -1,46 +1,62 @@
 const links = [
     {
         id: 1,
-        name: "Website",
-        about: "Look at my work!",
-        url: "https://ssahibsingh.github.io",
-        img: require('../public/assets/website.webp')
+        name: "অসমীয়া খবৰ",
+        about: "Asomiya Khabor",
+        url: "https://www.assamiyakhabor.com/",
+        img: require('../public/assets/askhabor.webp')
     },
     {
         id: 2,
-        name: "Github",
-        about: "@ssahibsingh | 🏡 to all my projects",
-        url: "https://github.com/ssahibsingh",
-        img: require('../public/assets/github.webp')
+        name: "আমাৰ অসম",
+        about: "Amar Asom",
+        url: "https://www.glpublications.in/",
+        img: require('../public/assets/amasom.webp')
     },
     {
         id: 3,
-        name: "LinkedIn",
-        about: "@ssahibsingh | Know more about my profession",
-        url: "https://www.linkedin.com/in/ssahibsingh/",
-        img: require('../public/assets/linkedin.webp')
+        name: "অসম আদিত্য",
+        about: "Asom Aditya",
+        url: "https://epaper.asomaditya.com/",
+        img: require('../public/assets/asaditya.webp')
     },
     {
         id: 4,
-        name: "Twitter",
-        about: "@ssahibsingh_ | 😜",
-        url: "https://twitter.com/ssahibsingh_",
-        img: require('../public/assets/twitter.webp')
+        name: "দৈনিক জনমভূমি",
+        about: "Dainik Janambhumi",
+        url: "https://dainikjanambhumi.co.in",
+        img: require('../public/assets/dajanambhumi.webp')
     },
     {
         id: 5,
-        name: "Instagram",
-        about: "@ssahibsingh_ | Shots of my Life",
-        url: "https://www.instagram.com/ssahibsingh_/",
-        img: require('../public/assets/instagram.webp')
+        name: "গণ অধিকাৰ",
+        about: "Gana Adhikar",
+        url: "https://epaper.ganaadhikar.com/",
+        img: require('../public/assets/gaadhikar.webp')
     },
     {
         id: 6,
-        name: "Telegram",
-        about: "@cexnone | Chat with me instantly",
-        url: "https://t.me/cexnone",
-        img: require('../public/assets/telegram.webp')
+        name: "নিয়মীয়া বাৰ্তা",
+        about: "Niyomiya Barta",
+        url: "https://niyomiyabarta.com/epaper/",
+        img: require('../public/assets/nibarta.webp')
     },
+
+    {
+        id: 7,
+        name: "অসম বাণী",
+        about: "Asam Bani",
+        url: "https://www.asambani.com/epaper/index.html",
+        img: require('../public/assets/asbani.webp')
+    },
+
+    {
+        id: 8,
+        name: "সাপ্তাহিক জনমভূমি",
+        about: "Janambhumi Weekly",
+        url: "https://www.dainikjanambhumi.co.in/janambhumi/",
+        img: require('../public/assets/sajanambhumi.webp')
+    }, 
 ];
 
 export default links;
