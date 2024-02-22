@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-// import Image from 'next/image'
-
 import links from "../data/links";
 import logo from "../public/logo.webp";
 export default function Home() {
@@ -82,7 +80,7 @@ export default function Home() {
 
       <footer className="my-2">
         
-        <p className="text-center">
+        <p className="text-center text-muted border-top pt-3">
         
           Made with love by{" "}
           <Link href="#">🦜NewsBird</Link>
