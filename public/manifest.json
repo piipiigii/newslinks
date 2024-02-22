@@ -463,16 +463,23 @@
     "screenshots": [
         {
             "src": "/screenshots/screenshot1.jpg",
-            "sizes": "1080x1920",
+            "sizes": "1490x1334",
             "type": "image/jpg",
-            "description": "A screenshot of the mobile home page"
-        }
+            "description": "A screenshot of the tab home page"
+        },
+
+        {
+          "src": "/screenshots/screenshot2.jpg",
+          "sizes": "1080x1920",
+          "type": "image/jpg",
+          "description": "A screenshot of the mobile home page"
+      }
     ],
     
     "prefer_related_applications": false,
     "shortcuts": [
         {
-            "name":"Home",
+            "name":"AsNews",
             "url":"/"
         }
     ]
