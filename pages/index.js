@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import links from "../data/links";
 import logo from "../public/logo.webp";
+import InstallPWA from "../components/installPWA";
+
 export default function Home() {
   return (
     <>
@@ -45,6 +47,7 @@ export default function Home() {
             <Link className="navbar-brand" href="/">
             Assamese News Papers
             </Link>
+            
           </div>
           {/* <button className="btn navbar-btn">Hello</button> */}
         </div>
@@ -76,6 +79,9 @@ export default function Home() {
             })}
           </div>
         </div>
+        <div className="text-center">
+            <InstallPWA />
+          </div>
       </main>
 
       <footer className="my-2">
