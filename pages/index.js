@@ -14,16 +14,16 @@ export default function Home() {
         <meta name="author" content="News Paper Links" />
         <meta
           name="description"
-          content="News Paper Links"
+          content="Assamese News Paper Links"
         />
         <meta
           name="keywords"
           content="News Paper Links, News, Assamese News Papers"
         />
-        <link rel="canonical" href="#" />
+        <link rel="canonical" href="https://asnews.vercel.app" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="#" />
-        <meta property="og:title" content="News Paper Links" />
+        <meta property="og:url" content="https://asnews.vercel.app" />
+        <meta property="og:title" content="Assamese News Paper Links" />
         <meta
           property="og:description"
           content="News Paper Links"
@@ -31,11 +31,11 @@ export default function Home() {
         <meta property="og:image" content="./website.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="#" />
-        <meta property="twitter:title" content="News Paper Links" />
+        <meta property="twitter:url" content="https://asnews.vercel.app" />
+        <meta property="twitter:title" content="Assamese News Paper Links" />
         <meta
           property="twitter:description"
-          content="News Paper Links"
+          content="Assamese News Paper Links"
         />
         <meta property="twitter:image" content="./website.png" />
       </Head>
