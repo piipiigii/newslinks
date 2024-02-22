@@ -1,13 +1,14 @@
 {
     "display_override": ["window-controls-overlay"], 
     "protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}], 
-    "name": "Assamese News Paper",
-    "short_name": "News",
+    "name": "Assamese News Papers",
+    "short_name": "AsNews",
     "start_url": "/",
     "display": "standalone",
-    "description": "Assamese News Paper Links",    
+    "description": "Assamese News Papers",    
     "theme_color": "#FFFFFF",
-    "background_color": "#FFFFFF",           
+    "background_color": "#FFFFFF",
+    "orientation": "any",           
     "icons": [
           {
             "src": "windows11/SmallTile.scale-100.png",

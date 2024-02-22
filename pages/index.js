@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Assamese News Paper Links</title>
-        <meta name="title" content="News Paper Links" />
-        <meta name="author" content="News Paper Links" />
+        <title>Assamese News Papers</title>
+        <meta name="title" content="Assamese News Papers" />
+        <meta name="author" content="Assamese News Papers" />
         <meta
           name="description"
-          content="Assamese News Paper Links"
+          content="Assamese News Papers"
         />
         <meta
           name="keywords"
@@ -21,19 +21,19 @@ export default function Home() {
         <link rel="canonical" href="https://asnews.vercel.app" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://asnews.vercel.app" />
-        <meta property="og:title" content="Assamese News Paper Links" />
+        <meta property="og:title" content="Assamese News Papers" />
         <meta
           property="og:description"
-          content="News Paper Links"
+          content="Assamese News Papers"
         />
         <meta property="og:image" content="./website.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://asnews.vercel.app" />
-        <meta property="twitter:title" content="Assamese News Paper Links" />
+        <meta property="twitter:title" content="AAssamese News Papers" />
         <meta
           property="twitter:description"
-          content="Assamese News Paper Links"
+          content="Assamese News Papers"
         />
         <meta property="twitter:image" content="./website.png" />
       </Head>
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="d-flex justify-content-center align-items-center">
             <Image src={logo} className="logo img-fluid mx-2" alt="Logo" />
             <Link className="navbar-brand" href="/">
-            Assamese News Paper
+            Assamese News Papers
             </Link>
           </div>
           {/* <button className="btn navbar-btn">Hello</button> */}
