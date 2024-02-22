@@ -53,12 +53,12 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="mt-4">
+      <main className="mt-3">
         <div className="content container">
           <div className="row d-flex justify-content-center">
             {links.map((item) => {
               return (
-                <div key={item.id} className="col-md-4 col-6 my-3">
+                <div key={item.id} className="col-md-4 col-6 my-2">
                   <div className="cards-wrap">
                     <Link href={item.url} rel="noreferrer" target="_blank">
                       <div className="cards p-3 d-flex justify-content-center">
@@ -84,9 +84,9 @@ export default function Home() {
           </div>
       </main>
 
-      <footer className="my-2">
+      <footer className="my-1">
         
-        <p className="text-center text-muted border-top pt-3">
+        <p className="text-center text-muted border-top pt-1">
         
           Made with love by{" "}
           <Link href="#">🦜NewsBird</Link>
