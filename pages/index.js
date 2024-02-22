@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>News Paper Links</title>
+        <title>Assamese News Paper Links</title>
         <meta name="title" content="News Paper Links" />
         <meta name="author" content="News Paper Links" />
         <meta
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="d-flex justify-content-center align-items-center">
             <Image src={logo} className="logo img-fluid mx-2" alt="Logo" />
             <Link className="navbar-brand" href="/">
-            News Paper Links
+            Assamese News Paper Links
             </Link>
           </div>
           {/* <button className="btn navbar-btn">Hello</button> */}
@@ -80,12 +80,12 @@ export default function Home() {
         </div>
       </main>
 
-      {/* <footer className="my-2">
+      <footer className="my-2">
         <p className="text-center">
           Made with ❤️ by{" "}
           <Link href="#">News Paper Links</Link>
         </p>
-      </footer> */}
+      </footer> 
     </>
   );
 }
