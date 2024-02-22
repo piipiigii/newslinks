@@ -463,7 +463,7 @@
     "screenshots": [
         {
             "src": "/screenshots/screenshot1.jpg",
-            "sizes": "1490x1334",
+            "sizes": "1330x1560",
             "type": "image/jpg",
             "description": "A screenshot of the tab home page"
         },
