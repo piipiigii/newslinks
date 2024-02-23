@@ -85,7 +85,7 @@ export default function Home() {
       </main>
       </body>
 
-      <footer className="mt-auto">
+      <footer className="mt-1">
         
         <p className="text-center text-muted border-top pt-1">
         
