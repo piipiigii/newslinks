@@ -83,9 +83,9 @@ export default function Home() {
             <InstallPWA />
           </div>
       </main>
-      </body>
+      
 
-      <footer className="mt-1">
+      <footer className="mt-auto">
         
         <p className="text-center text-muted border-top pt-1">
         
@@ -93,6 +93,7 @@ export default function Home() {
           <Link href="#">🦜NewsBird</Link>
         </p>
       </footer> 
+      </body>
     </>
   );
 }
