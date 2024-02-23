@@ -40,15 +40,15 @@ export default function Home() {
         <meta property="twitter:image" content="https://asnews.vercel.app/website.png" />
       </Head>
       
-      <body className="d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column min-vh-100">
+
       <nav className="navbar navbar-expand-lg mt-5 mb-3">
         <div className="content container d-flex justify-content-between">
           <div className="d-flex justify-content-center align-items-center">
             <Image src={logo} className="logo img-fluid mx-2" alt="Logo" />
             <Link className="navbar-brand" href="/">
             Assamese News Papers
-            </Link>
-            
+            </Link>            
           </div>
           {/* <button className="btn navbar-btn">Hello</button> */}
         </div>
@@ -80,21 +80,21 @@ export default function Home() {
             })}
           </div>
         </div>
+        
         <div className="text-center">
             <InstallPWA />
           </div>
+      
       </main>
       
-
       <footer className="mt-auto">
-        
         <p className="text-center text-muted border-top pt-1">
-        
-          Made with love by{" "}
-          <Link href="#">🦜NewsBird</Link>
+        ◼ Made with love by{" "}
+          <Link href="#">🦜NewsBird</Link> <Link href="/bangla">◼</Link>
         </p>
       </footer> 
-    </body>
+    </div>
+    
     </>
   );
 }
