@@ -39,8 +39,9 @@ export default function Home() {
         />
         <meta property="twitter:image" content="https://asnews.vercel.app/website.png" />
       </Head>
-<body className="d-flex flex-column min-vh-100">
-      <nav className="navbar navbar-expand-lg my-3">
+      
+      <body className="d-flex flex-column min-vh-100">
+      <nav className="navbar navbar-expand-lg mt-5 mb-3">
         <div className="content container d-flex justify-content-between">
           <div className="d-flex justify-content-center align-items-center">
             <Image src={logo} className="logo img-fluid mx-2" alt="Logo" />
@@ -93,7 +94,7 @@ export default function Home() {
           <Link href="#">🦜NewsBird</Link>
         </p>
       </footer> 
-      </body>
+    </body>
     </>
   );
 }
