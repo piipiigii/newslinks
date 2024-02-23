@@ -39,7 +39,7 @@ export default function Home() {
         />
         <meta property="twitter:image" content="https://asnews.vercel.app/website.png" />
       </Head>
-
+<body className="d-flex flex-column min-vh-100">
       <nav className="navbar navbar-expand-lg my-3">
         <div className="content container d-flex justify-content-between">
           <div className="d-flex justify-content-center align-items-center">
@@ -83,8 +83,9 @@ export default function Home() {
             <InstallPWA />
           </div>
       </main>
+      </body>
 
-      <footer className="my-1">
+      <footer className="mt-auto">
         
         <p className="text-center text-muted border-top pt-1">
         
