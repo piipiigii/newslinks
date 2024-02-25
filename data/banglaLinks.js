@@ -8,7 +8,7 @@ const banglaLinks = [
     },
     {
         id: 2,
-        name: "আনন্দবাজার প্রত্রিকা",
+        name: "আনন্দবাজার পত্রিকা",
         about: "Anandabazar Patrika",
         url: "https://epaper.anandabazar.com/",
         img: require('../public/assets/abp.webp')
