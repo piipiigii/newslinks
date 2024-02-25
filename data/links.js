@@ -1,24 +1,24 @@
 const links = [
     {
         id: 1,
+       name: "অসম আদিত্য",
+        about: "Asom Aditya",
+        url: "https://epaper.asomaditya.com/",
+        img: require('../public/assets/asaditya.webp')
+    },
+    {
+	id: 2,
         name: "অসমীয়া খবৰ",
         about: "Asomiya Khabor",
         url: "https://www.assamiyakhabor.com/",
         img: require('../public/assets/askhabor.webp')
     },
     {
-        id: 2,
+        id: 3,
         name: "আমাৰ অসম",
         about: "Amar Asom",
         url: "https://www.glpublications.in/",
         img: require('../public/assets/amasom.webp')
-    },
-    {
-        id: 3,
-        name: "অসম আদিত্য",
-        about: "Asom Aditya",
-        url: "https://epaper.asomaditya.com/",
-        img: require('../public/assets/asaditya.webp')
     },
     {
         id: 4,

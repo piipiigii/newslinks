@@ -1,10 +1,10 @@
 const banglaLinks = [
     {
         id: 1,
-        name: "সংবাদ প্রতিদিন",
-        about: "Sangbad Pratidin",
-        url: "https://epaper.sangbadpratidin.in/",
-        img: require('../public/assets/sp.webp')
+	name: "আজকাল",
+        about: "Aajkaal",
+        url: "https://www.eaajkaal.in/",
+        img: require('../public/assets/aajk.webp')
     },
     {
         id: 2,
@@ -15,24 +15,10 @@ const banglaLinks = [
     },
     {
         id: 3,
-        name: "আজকাল",
-        about: "Aajkaal",
-        url: "https://www.eaajkaal.in/",
-        img: require('../public/assets/aajk.webp')
-    },
-    {
-        id: 4,
-        name: "সাময়িক প্ৰসঙ্গ",
-        about: "Samayik Prasanga",
-        url: "https://samayikprasanga.in/epaper.php",
-        img: require('../public/assets/samp.webp')
-    },
-    {
-        id: 3,
-        name: "একদিন",
+	name: "একদিন",
         about: "Ekdin",
         url: "https://www.ekdin-epaper.com/",
-        img: require('../public/assets/ekdin.webp')
+        img: require('../public/assets/ekdin.webp')        
     },
     {
         id: 4,
@@ -40,6 +26,20 @@ const banglaLinks = [
         about: "Puber Kolom",
         url: "https://epaper.puberkalom.com/",
         img: require('../public/assets/pk.webp')
+    },
+    {
+        id: 5,
+        name: "সাময়িক প্ৰসঙ্গ",
+        about: "Samayik Prasanga",
+        url: "https://samayikprasanga.in/epaper.php",
+        img: require('../public/assets/samp.webp')
+    },
+    {
+        id: 6,
+        name: "সংবাদ প্রতিদিন",
+        about: "Sangbad Pratidin",
+        url: "https://epaper.sangbadpratidin.in/",
+        img: require('../public/assets/sp.webp')
     },
     
 ];
