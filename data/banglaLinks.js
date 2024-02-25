@@ -27,6 +27,20 @@ const banglaLinks = [
         url: "https://samayikprasanga.in/epaper.php",
         img: require('../public/assets/samp.webp')
     },
+    {
+        id: 3,
+        name: "একদিন",
+        about: "Ekdin",
+        url: "https://www.ekdin-epaper.com/",
+        img: require('../public/assets/ekdin.webp')
+    },
+    {
+        id: 4,
+        name: "পূবের কলম",
+        about: "Puber Kolom",
+        url: "https://epaper.puberkalom.com/",
+        img: require('../public/assets/pk.webp')
+    },
     
 ];
 
