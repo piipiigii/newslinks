@@ -46,13 +46,23 @@ export default function Home() {
         <div className="content container d-flex justify-content-between">
           <div className="d-flex justify-content-center align-items-center">
             <Image src={logo} className="logo img-fluid mx-2" alt="Logo" />
+            
+            <div>
             <Link className="navbar-brand" href="/">
-            Assamese News Papers
-            </Link>            
+           News Paper Links
+            </Link>
+            </div>   
+            
           </div>
           {/* <button className="btn navbar-btn">Hello</button> */}
-        </div>
-      </nav>
+        </div>        
+     </nav>
+
+     <div className="mt-1">
+        <p className="text-center text-muted">
+        <Link href="/">Assamese</Link> | <Link href="/bangla">Bangla</Link>  
+        </p>
+      </div>
 
       <main className="mt-3">
         <div className="content container">
@@ -89,8 +99,8 @@ export default function Home() {
       
       <footer className="mt-auto">
         <p className="text-center text-muted border-top pt-1">
-        ◼ Made with love by{" "}
-          <Link href="#">🦜NewsBird</Link> <Link href="/bangla">◼</Link>
+        Made with love by{" "}
+          <Link href="#">🦜NewsBird</Link>
         </p>
       </footer> 
     </div>

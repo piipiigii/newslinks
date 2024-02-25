@@ -46,12 +46,18 @@ export default function Home() {
             <div className="d-flex justify-content-center align-items-center">
               <Image src={logo} className="logo img-fluid mx-2" alt="Logo" />
               <Link className="navbar-brand" href="/">
-                Assamese News Papers
+                News Paper Links
               </Link>
             </div>
             {/* <button className="btn navbar-btn">Hello</button> */}
           </div>
         </nav>
+
+        <div className="mt-1">
+        <p className="text-center text-muted">
+        <Link href="/">Assamese</Link> | <Link href="/bangla">Bangla</Link> | <Link href="/english">English</Link>  
+        </p>
+      </div>
 
         <main className="mt-3">
           <div className="content container">
