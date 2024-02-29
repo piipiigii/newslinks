@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import banglaLinks from "../data/banglaLinks";
 import logo from "../public/logo.webp";
+import Footer from "../components/footer";
 import InstallPWA from "../components/installPWA";
 
 export default function Home() {
@@ -94,11 +95,8 @@ export default function Home() {
           </div>
         </main>
 
-        <footer className="mt-auto">
-          <p className="text-center text-muted border-top pt-1">
-          Made with love by <Link href="#">🦜NewsBird</Link>
-          </p>
-        </footer>
+        <Footer />
+
       </div>
     </>
   );

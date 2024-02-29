@@ -4,6 +4,7 @@ import Link from "next/link";
 import links from "../data/links";
 import logo from "../public/logo.webp";
 import InstallPWA from "../components/installPWA";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -96,13 +97,7 @@ export default function Home() {
           </div>
       
       </main>
-      
-      <footer className="mt-auto">
-        <p className="text-center text-muted border-top pt-1">
-        Made with love by{" "}
-          <Link href="#">🦜NewsBird</Link>
-        </p>
-      </footer> 
+        <Footer />
     </div>
     
     </>
