@@ -54,7 +54,7 @@ const links = [
         id: 8,
         name: "সাপ্তাহিক জনমভূমি",
         about: "Janambhumi Weekly",
-        url: "https://www.dainikjanambhumi.co.in/janambhumi/",
+        url: "https://s2.dainikjanambhumi.co.in/category/7/weekly-edition",
         img: require('../public/assets/sajanambhumi.webp')
     }, 
 ];
