@@ -41,7 +41,13 @@ const links = [
         url: "https://niyomiyabarta.com/epaper/",
         img: require('../public/assets/nibarta.webp')
     },
-
+    {
+        id: 6,
+        name: "দৈনিক অগ্ৰদূত",
+        about: "Dainik Agradoot",
+        url: "https://dainikagradoot.in/blog/category/daily/",
+        img: require('../public/assets/dainikagradoot-logo.png')
+    },
     {
         id: 7,
         name: "অসম বাণী",
@@ -54,7 +60,7 @@ const links = [
         id: 8,
         name: "সাপ্তাহিক জনমভূমি",
         about: "Janambhumi Weekly",
-        url: "https://www.dainikjanambhumi.co.in/janambhumi/",
+        url: "https://s2.dainikjanambhumi.co.in/category/7/weekly-edition",
         img: require('../public/assets/sajanambhumi.webp')
     }, 
 ];
