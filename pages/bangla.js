@@ -57,7 +57,7 @@ export default function Home() {
 
         <div className="mt-1">
         <p className="text-center text-muted">
-        <Link href="/">Assamese</Link> | <Link href="/bangla">Bangla</Link>  
+        <Link href="/">Assamese</Link> &nbsp;|&nbsp; <Link href="/bangla">Bangla</Link> &nbsp;|&nbsp; <Link href="/english">English</Link>  
         </p>
       </div>
 

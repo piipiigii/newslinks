@@ -1,31 +1,31 @@
 const enLinks = [
     {
         id: 1,
-        name: "সংবাদ প্রতিদিন",
-        about: "Sangbad Pratidin",
-        url: "https://epaper.sangbadpratidin.in/",
-        img: require('../public/assets/askhabor.webp')
+        name: "The Sentinel",
+        about: "Guwahati",
+        url: "https://epaper.sentinelassam.com/",
+        img: require('../public/assets/sentinel.webp')
     },
     {
         id: 2,
-        name: "আনন্দবাজার প্রত্রিকা",
-        about: "Anandabazar Patrika",
-        url: "https://epaper.anandabazar.com/",
-        img: require('../public/assets/askhabor.webp')
+        name: "The Telegraph",
+        about: "Kolkata",
+        url: "https://epaper.telegraphindia.com/",
+        img: require('../public/assets/telegraph.webp')
     },
     {
         id: 3,
-        name: "আজকাল",
-        about: "Aajkaal",
-        url: "https://www.eaajkaal.in/",
-        img: require('../public/assets/askhabor.webp')
+        name: "The Statesman",
+        about: "Multi City",
+        url: "https://epaper.thestatesman.com/",
+        img: require('../public/assets/the-statesman.webp')
     },
     {
         id: 4,
-        name: "সাময়িক প্ৰসঙ্গ",
-        about: "Samayik Prasanga",
-        url: "https://samayikprasanga.in/epaper.php",
-        img: require('../public/assets/askhabor.webp')
+        name: "The Daily Guardian",
+        about: "New Delhi",
+        url: "https://epaper.thedailyguardian.com/",
+        img: require('../public/assets/daily-guardian.webp')
     },
     
 ];

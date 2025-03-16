@@ -41,6 +41,13 @@ const banglaLinks = [
         url: "https://epaper.sangbadpratidin.in/",
         img: require('../public/assets/sp.webp')
     },
+    {
+        id: 7,
+        name: "দৈনিক স্টেটসম্যান",
+        about: "Dainik Statesman",
+        url: "https://epaper.thestatesman.com/t/9256",
+        img: require('../public/assets/tsm.webp')
+    },
     
 ];
 
