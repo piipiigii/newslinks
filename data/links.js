@@ -50,10 +50,10 @@ const links = [
     },
     {
         id: 7,
-        name: "অসম বাণী",
-        about: "Asam Bani",
-        url: "https://www.asambani.com/epaper/index.html",
-        img: require('../public/assets/asbani.webp')
+        name: "দৈনিক অসম",
+        about: "Dainik Asam",
+        url: "https://dainikasam.in/",
+        img: require('../public/assets/dainikasam.webp')
     },
 
     {

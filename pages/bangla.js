@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import banglaLinks from "../data/banglaLinks";
-import logo from "../public/logo.webp";
+import Header from "../components/header";
 import Footer from "../components/footer";
 import InstallPWA from "../components/installPWA";
 
@@ -43,23 +43,7 @@ export default function Home() {
 
 <div className="d-flex flex-column min-vh-100">
 
-        <nav className="navbar navbar-expand-lg mt-5 mb-3">
-          <div className="content container d-flex justify-content-between">
-            <div className="d-flex justify-content-center align-items-center">
-              <Image src={logo} className="logo img-fluid mx-2" alt="Logo" />
-              <Link className="navbar-brand" href="/">
-                News Paper Links
-              </Link>
-            </div>
-            {/* <button className="btn navbar-btn">Hello</button> */}
-          </div>
-        </nav>
-
-        <div className="mt-1">
-        <p className="text-center text-muted">
-        <Link href="/">Assamese</Link> &nbsp;|&nbsp; <Link href="/bangla">Bangla</Link> &nbsp;|&nbsp; <Link href="/english">English</Link>  
-        </p>
-      </div>
+       <Header />
 
         <main className="mt-3">
           <div className="content container">
