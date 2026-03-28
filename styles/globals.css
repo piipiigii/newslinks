@@ -1,86 +1,104 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap'); */
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-100: #d1fae5;
+  --color-emerald-200: #a7f3d0;
+  --color-emerald-300: #6ee7b7;
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-800: #065f46;
+  --color-emerald-900: #064e3b;
+  --color-emerald-950: #022c22;
+}
+
 :root {
-  --black: #333;
-  --white: #fff;
-  --grey: #E5E5E5;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--black)
+[class~="dark"] {
+  --foreground-rgb: 244, 244, 245;
+  /* zinc-100 */
+  --background-start-rgb: 9, 9, 11;
+  /* zinc-950 */
+  --background-end-rgb: 0, 0, 0;
 }
 
-/* Utility */
-a {
-  text-decoration: none;
-  color: inherit
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  min-height: 100vh;
 }
 
-.content {
-  width: 80%;
-}
+@layer components {
+  .glass {
+    @apply bg-white/70 dark:bg-zinc-900/40 backdrop-blur-xl border border-white/20 dark:border-zinc-800/20 shadow-xl;
+  }
 
-@media screen and (max-width: 768px) {
-  .content {
-    width: 90%;
+  .glass-card {
+    @apply bg-white dark:bg-zinc-900/60 backdrop-blur-md border border-zinc-100 dark:border-zinc-800/50 shadow-sm transition-all duration-300;
+  }
+
+  .premium-button {
+    @apply px-6 py-2 rounded-full font-semibold transition-all duration-300 active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .emerald-gradient {
+    @apply bg-linear-to-tr from-emerald-600 to-emerald-400 dark:from-emerald-500 dark:to-emerald-400;
+  }
+
+  .card-glow {
+    @apply absolute -inset-0.5 bg-linear-to-r from-emerald-500 to-teal-500 rounded-3xl opacity-0 group-hover:opacity-20 blur transition duration-500;
   }
 }
 
-/* Navbar */
-
-.logo {
-  border-radius: 50%;
-  width: 50px;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--black)
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
 }
 
-.navbar-btn {
-  background-color: darkseagreen;
-  border-radius: 20px;
+::-webkit-scrollbar-thumb {
+  @apply bg-emerald-500/30 hover:bg-emerald-500/50 rounded-full transition-colors;
 }
 
-
-/* Main */
-main {
-  width: 100%;
+/* Base Animations */
+.animate-in {
+  animation: fadeIn 0.5s ease-out forwards;
 }
 
-/* Cards */
-.cards {
-  border-radius: 7px;
-  transition: transform 0.1s;
-  height: 100%;
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out forwards;
 }
 
-.cards:hover {
-  background-color: #EDEDED;
-  transform: scale(1.02);
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-.cards-wrap a {
-  color: var(--black);
-}
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
 
-.cards-img {
-  border-radius: 5px;
-}
-
-.cards-name {
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-@media screen and (max-width: 576px) {
-  .cards-about {
-    font-size: 0.9rem;
-    font-weight: 400;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
