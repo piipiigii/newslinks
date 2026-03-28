@@ -23,10 +23,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} flex flex-col min-vh-100 bg-zinc-50 dark:bg-zinc-950 transition-colors`}>
+      <body className={`${inter.className} flex flex-col min-vh-100 bg-zinc-950 text-zinc-100 transition-colors`}>
         <Providers>
           <Navbar />
-          <main className="flex-grow pt-24 pb-12">
+          <main className="grow pt-24 pb-12">
             {children}
           </main>
           <div className="text-center py-4 bg-zinc-50 dark:bg-zinc-950">

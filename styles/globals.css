@@ -15,18 +15,18 @@
   --color-emerald-950: #022c22;
 }
 
+/* DEFAULT THEME (Dark) */
 :root {
+  --foreground-rgb: 244, 244, 245; /* zinc-100 */
+  --background-start-rgb: 9, 9, 11; /* zinc-950 */
+  --background-end-rgb: 0, 0, 0;
+}
+
+/* OVERRIDE (Light) */
+[class~="light"] {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
-
-[class~="dark"] {
-  --foreground-rgb: 244, 244, 245;
-  /* zinc-100 */
-  --background-start-rgb: 9, 9, 11;
-  /* zinc-950 */
-  --background-end-rgb: 0, 0, 0;
 }
 
 body {
